@@ -19,14 +19,9 @@
 
 두 비율 차이의 표준오차와 95% 신뢰구간은 다음과 같이 계산했다.
 
-\[
-\widehat{p}_F-\widehat{p}_M
-\pm 1.96\sqrt{
-\frac{\widehat{p}_F(1-\widehat{p}_F)}{n_F}
-+
-\frac{\widehat{p}_M(1-\widehat{p}_M)}{n_M}
-}.
-\]
+```math
+\widehat{p}_F-\widehat{p}_M \pm 1.96\sqrt{\frac{\widehat{p}_F(1-\widehat{p}_F)}{n_F}+\frac{\widehat{p}_M(1-\widehat{p}_M)}{n_M}}
+```
 
 계산 결과 표준오차는 0.0296, 차이의 95% 신뢰구간은 **49.5~61.1%포인트**이다. 이 구간은 독립 관측 가정 아래의 근사 구간이다.
 
